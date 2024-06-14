@@ -9,7 +9,7 @@ WORKDIR /App
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copie o restante do código do seu projeto para o diretório de trabalho
-COPY brute_force.py
+COPY brute_force.py .
 
 # Defina o comando de execução do seu script
 CMD ["python", "./brute_force.py"]
