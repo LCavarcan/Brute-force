@@ -18,7 +18,7 @@ def brute_force_password_cracker(password, max_length=100000000000):
     return None
 
 # Defina a senha que deseja quebrar
-password_to_crack = "abcdef"
+password_to_crack = "aninha"
 
 # Chame a função de quebra de senha
 brute_force_password_cracker(password_to_crack)
